@@ -1,2 +1,3 @@
 # nofwl
-ChatGPT Pro Desktop Application
+
+NoFWL Desktop Application
