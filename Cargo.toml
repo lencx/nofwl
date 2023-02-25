@@ -2,6 +2,7 @@
 name = "nofwl"
 version = "0.1.0"
 edition = "2021"
+description = "NoFWL Desktop Application"
 authors = ["lencx <cxin1314@gmail.com>"]
 homepage = "https://github.com/lencx/nofwl"
 repository = "https://github.com/lencx/nofwl"
