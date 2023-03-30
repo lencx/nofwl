@@ -4,31 +4,31 @@
   "pub_date": "2023-03-30T15:56:42.621Z",
   "platforms": {
     "win64": {
-      "signature": "Not Found",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU1ZxOFhWYWNRRG5XSmJFejVBSU00VjZVa3prTGdPeHNUaFd1U2N3eDRyMzRPZndwZ3lXY1VuN3Rmc3prUVBjWk5pQS9YMDdyaGVMd3EzNkpyc0R2TnpnbXNXOXZNTlFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwMTkxNzQ3CWZpbGU6Tm9GV0xfMC4xLjBfeDY0X2VuLVVTLm1zaS56aXAKeHNGaVFKRHJlQm00ZUt1SjR1bS95S2xDTUs4NlY0RDZsTGFRMW5RaVdjWVhYQ0haVCttUEVuNVhjWHhYZDVyZ0hlS3pDSXdyayt0Yy9TT2dwNVUyQUE9PQo=",
       "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_windows_x86_64.msi.zip"
     },
     "linux": {
-      "signature": "Not Found",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU1ZxOFhWYWNRRG9WZjZxbjIzckFWbFo2clB4OThqS1hMU2U5ZXBLeDM0YU1tbU1SOGNSOXp4UkVzS3NpcDhlUElEaFFWYVcxVXptaWJoVlVJUTZnQ084QmVVNnpjVHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwMTkxNTY3CWZpbGU6bm8tZndsXzAuMS4wX2FtZDY0LkFwcEltYWdlLnRhci5nego2VzQ0eUNXUTVZUFd4ZFVzTE13T0t1OFpWaWJPd05wb0lUYTdSV0JTMXNSZWMzTFBQWldMNUlpc1JiQWtxS2x1Z1RXS2JrZ0ZBQ21DVDMvSGR1QThCUT09Cg==",
       "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_linux_x86_64.AppImage.tar.gz"
     },
     "darwin": {
-      "signature": "Not Found",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU1ZxOFhWYWNRRG96akpMMVFyL2RJOE1pc29FQXdQOGZPcUM0NExLc2syMTJEdFl0R2Z5REs5MHBmdVl6K2xsMkFLeWYvZzZOZWJ3aUE3OU5wTWZGYy8wUmlmMGovMnd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwMTkxNjE3CWZpbGU6Tm9GV0wuYXBwLnRhci5nego5ekk4U3BNRzVwRXVLTHVrMWdGVEs0OG5oQ0h3YVFvc21PQ3JuUWw3QVJkWGpXRWt3NVE1MmdtNDRzTE8rSFdPZXF3dVpIZTQvbFB5cFpYMFpvRUpBQT09Cg==",
       "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_macos_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "Not Found",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU1ZxOFhWYWNRRG5Ec054d092Zjk1SGF5TXRGQlBkTXVVOElIWkNlSnVGNFF3QkczUkhWdlJDQ2xTL3dRc3RkV2d6dVM1TktMQkhtRW9XOXRqcTMyZ0txN1htS2dvUkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwMTkxNjMwCWZpbGU6Tm9GV0wuYXBwLnRhci5negpTWGZmd3NkUk5FdmFpOFJNeUhVNWs3MmZ5cGxBYnRMbmszSFY4MEZyQVlnZmNPU01SZkhucVdaK0tWaGF3QmVWcEk1S3pmQWxmbjNIT3VDbjkvTjRCUT09Cg==",
       "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_macos_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "Not Found",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU1ZxOFhWYWNRRG96akpMMVFyL2RJOE1pc29FQXdQOGZPcUM0NExLc2syMTJEdFl0R2Z5REs5MHBmdVl6K2xsMkFLeWYvZzZOZWJ3aUE3OU5wTWZGYy8wUmlmMGovMnd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwMTkxNjE3CWZpbGU6Tm9GV0wuYXBwLnRhci5nego5ekk4U3BNRzVwRXVLTHVrMWdGVEs0OG5oQ0h3YVFvc21PQ3JuUWw3QVJkWGpXRWt3NVE1MmdtNDRzTE8rSFdPZXF3dVpIZTQvbFB5cFpYMFpvRUpBQT09Cg==",
       "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_macos_x86_64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "Not Found",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU1ZxOFhWYWNRRG9WZjZxbjIzckFWbFo2clB4OThqS1hMU2U5ZXBLeDM0YU1tbU1SOGNSOXp4UkVzS3NpcDhlUElEaFFWYVcxVXptaWJoVlVJUTZnQ084QmVVNnpjVHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwMTkxNTY3CWZpbGU6bm8tZndsXzAuMS4wX2FtZDY0LkFwcEltYWdlLnRhci5nego2VzQ0eUNXUTVZUFd4ZFVzTE13T0t1OFpWaWJPd05wb0lUYTdSV0JTMXNSZWMzTFBQWldMNUlpc1JiQWtxS2x1Z1RXS2JrZ0ZBQ21DVDMvSGR1QThCUT09Cg==",
       "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_linux_x86_64.AppImage.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "Not Found",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU1ZxOFhWYWNRRG5XSmJFejVBSU00VjZVa3prTGdPeHNUaFd1U2N3eDRyMzRPZndwZ3lXY1VuN3Rmc3prUVBjWk5pQS9YMDdyaGVMd3EzNkpyc0R2TnpnbXNXOXZNTlFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjgwMTkxNzQ3CWZpbGU6Tm9GV0xfMC4xLjBfeDY0X2VuLVVTLm1zaS56aXAKeHNGaVFKRHJlQm00ZUt1SjR1bS95S2xDTUs4NlY0RDZsTGFRMW5RaVdjWVhYQ0haVCttUEVuNVhjWHhYZDVyZ0hlS3pDSXdyayt0Yy9TT2dwNVUyQUE9PQo=",
       "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_windows_x86_64.msi.zip"
     }
   }
