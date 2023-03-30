@@ -1,0 +1,35 @@
+{
+  "version": "v0.1.0",
+  "notes": "- OpenAI API Key\n- Internationalization (English, Chinese)\n- Themes (light, dark, system)\n- Copying chat message and viewing raw data\n- Safe and reliable, all data is stored locally\n- Hotkey: `Ctrl + N` to New Chat",
+  "pub_date": "2023-03-30T15:56:42.621Z",
+  "platforms": {
+    "win64": {
+      "signature": "Not Found",
+      "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_windows_x86_64.msi.zip"
+    },
+    "linux": {
+      "signature": "Not Found",
+      "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_linux_x86_64.AppImage.tar.gz"
+    },
+    "darwin": {
+      "signature": "Not Found",
+      "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_macos_x86_64.app.tar.gz"
+    },
+    "darwin-aarch64": {
+      "signature": "Not Found",
+      "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_macos_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "Not Found",
+      "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_macos_x86_64.app.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "Not Found",
+      "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_linux_x86_64.AppImage.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "Not Found",
+      "url": "https://github.com/lencx/nofwl-core/releases/download/v0.1.0/NoFWL_0.1.0_windows_x86_64.msi.zip"
+    }
+  }
+}

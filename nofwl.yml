@@ -1,9 +1,0 @@
-name: nofwl
-author: lencx <cxin1314@gmail.com>
-description: NoFWL Plugins
-link: https://github.com/lencx/nofwl
-plugins:
-  - name: chatgpt
-    version: 0.1.0
-  - name: bing
-    version: 0.1.0
