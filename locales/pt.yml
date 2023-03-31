@@ -1,0 +1,75 @@
+hello: Hello NoFWL
+window:
+  message:
+    close: Do you want to exit the application when you click the [x] button?
+menu:
+  app:
+    about: About NoFWL
+    check_update: Check for Updates
+  preferences:
+    name: Preferences
+    control_center: Control Center
+    stay_on_top: Stay On Top
+    titlebar: Titlebar
+    hide_dock_icon: Hide Dock Icon
+    language: Language
+    theme:
+      name: Theme
+      light: Light
+      dark: Dark
+      system: System
+    sponsor: Sponsor NoFWL
+  edit:
+    name: Edit
+  view:
+    name: View
+    go_back: Go Back
+    go_forward: Go Forward
+    scroll_top: Scroll to Top of Screen
+    scroll_bottom: Scroll to Bottom of Screen
+    zoom_0: Zoom to Actual Size
+    zoom_out: Zoom Out
+    zoom_in: Zoom In
+    reload: Refresh the Screen
+  help:
+    name: Help
+    app_log: NoFWL Log
+    report_bug: Report Bug
+    feedback: Feedback
+    dev_tools: Toggle Developer Tools
+
+gpt:
+  button:
+    cancel: Cancel
+    save: Save
+  sidebar:
+    menu_title:
+      new: New Chat
+      history: Chat History
+      prompts: Prompts
+      export_md: Export Markdown
+      settings: Settings
+      hide_side: Hide Side
+    message:
+      chat_history: Chat History
+      chat_delete: Are you sure you want to delete this chat record? It cannot be restored after deletion!
+  modal:
+    settings_title: GPT Settings
+    chat_avatar:
+      label: Chat Avatar
+      tip: '(square: 200x200)'
+      warn: Invalid file type. Please select a JPEG (JPG) or PNG image!
+    api_key:
+      label: API Key
+      warn: API key cannot be empty!
+      title: About API Key
+      link: Get your API key from OpenAI
+      context: Your API key is stored locally and will never be sent anywhere else.
+    model: Model
+    context_level:
+      label: Context Level
+      title: What is context level?
+      context: The model has no memory of past requests and must be provided with all relevant information through dialogue. The requests will be based on a set context level that takes the most recent N pieces of information within a range of 0-100.
+  main:
+    message:
+      delete_confirm: Sure?

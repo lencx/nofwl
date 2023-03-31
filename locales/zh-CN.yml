@@ -1,0 +1,75 @@
+hello: 你好，NoFWL
+window:
+  message:
+    close: 当您点击 [x] 按钮时，是否要退出应用？
+menu:
+  app:
+    about: 关于 NoFWL
+    check_update: 检查更新
+  preferences:
+    name: 偏好设置
+    control_center: 控制中心
+    stay_on_top: 窗口置顶
+    titlebar: 标题栏
+    hide_dock_icon: 隐藏 Dock 图标
+    language: 语言
+    theme:
+      name: 主题
+      light: 明亮
+      dark: 暗黑
+      system: 系统
+    sponsor: 赞助 NoFWL
+  edit:
+    name: 编辑
+  view:
+    name: 视图
+    go_back: 返回
+    go_forward: 前进
+    scroll_top: 滚动到顶部
+    scroll_bottom: 滚动到底部
+    zoom_0: 缩放到实际大小
+    zoom_out: 缩小
+    zoom_in: 放大
+    reload: 刷新
+  help:
+    name: 帮助
+    app_log: 应用日志
+    report_bug: 报告问题
+    feedback: 反馈建议
+    dev_tools: 开发者工具
+
+gpt:
+  button:
+    cancel: 取消
+    save: 保存
+  sidebar:
+    menu_title:
+      new: 新消息
+      history: 消息历史
+      prompts: 提示
+      export_md: 导出 Markdown
+      settings: 设置
+      hide_side: 隐藏侧栏
+    message:
+      chat_history: 对话记录
+      chat_delete: 你确定要删除此聊天记录吗？删除后无法恢复！
+  modal:
+    settings_title: GPT 设置
+    chat_avatar:
+      label: 头像
+      tip: '(方形: 200x200)'
+      warn: 无效文件类型，请选择 JPEG (JPG) 或 PNG 图片！
+    api_key:
+      label: API 密钥
+      warn: API 密钥不能为空！
+      title: 关于 API 密钥
+      link: 从 OpenAI 获取您的 API 密钥
+      context: 您的 API 密钥存储在本地，绝不会发送到其他任何地方。
+    model: 模型
+    context_level:
+      label: 上下文级别
+      title: 什么是上下文级别？
+      context: 模型对过去的请求没有记忆，必须通过对话提供所有相关信息。请求会根据设置的级别取最近 N 条信息，范围是 0-100。
+  main:
+    message:
+      delete_confirm: 确定？
