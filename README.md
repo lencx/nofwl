@@ -53,13 +53,18 @@ xattr -cr /YOUR_PATH/NoFWL.app
 - [NoFWL_0.1.0_linux_x86_64.deb](https://github.com/lencx/nofwl/releases/download/v0.1.0/NoFWL_0.1.0_linux_x86_64.deb): Download `.deb` installer, advantage small size, disadvantage poor compatibility
 - [NoFWL_0.1.0_linux_x86_64.AppImage.tar.gz](https://github.com/lencx/nofwl/releases/download/v0.1.0/NoFWL_0.1.0_linux_x86_64.AppImage.tar.gz): Works reliably, you can try it if `.deb` fails to run
 
-
 ## Features
 
 - OpenAI API Key
 - Themes (light, dark, system)
 - Internationalization (English, Chinese)
 - Safe and reliable, all data is stored locally
+
+## I18N
+
+If you would like to contribute translations for other languages to the application, you can check here.
+
+[locales/{lang}.yml](./locales/README.md)
 
 ## TODO
 
@@ -79,5 +84,3 @@ xattr -cr /YOUR_PATH/NoFWL.app
 ![theme dark](assets/dark.png)
 
 ![theme light](assets/dark.png)
-
-## T
