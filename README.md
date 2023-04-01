@@ -12,6 +12,12 @@
 
 Currently under active development, please be patient. Its development is inspired by [lencx/ChatGPT](https://github.com/lencx/ChatGPT), but NoFWL has more powerful features.
 
+---
+
+**My region does not support OpenAI binding card recharge, so I am unable to proceed with the next development plan for now. If any friend is willing to provide an API key for the continued development of this project, please contact me. For details, please refer to this issues ([🙏 Request for Help: About OpenAI API Key](https://github.com/lencx/nofwl/issues/13)).**
+
+---
+
 ## Install
 
 - [📝 Update Log](./UPDATE_LOG.md)
@@ -73,3 +79,5 @@ xattr -cr /YOUR_PATH/NoFWL.app
 ![theme dark](assets/dark.png)
 
 ![theme light](assets/dark.png)
+
+## T
