@@ -14,7 +14,7 @@ Currently under active development, please be patient. Its development is inspir
 
 ---
 
-**My region does not support OpenAI binding card recharge, so I am unable to proceed with the next development plan for now. If any friend is willing to provide an API key for the continued development of this project, please contact me. For details, please refer to this issues ([🙏 Request for Help: About OpenAI API Key](https://github.com/lencx/nofwl/issues/13)).**
+**My region does not support OpenAI binding card recharge, so I am unable to proceed with the next development plan for now. If any friend is willing to provide an API key for the continued development of this project, please contact me. For details, please refer to this issue ([🙏 Request for Help: About OpenAI API Key](https://github.com/lencx/nofwl/issues/13)).**
 
 ---
 
