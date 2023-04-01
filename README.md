@@ -39,7 +39,7 @@ macOS 10.14.6+
 If you encounter the error message "ChatGPT" is damaged and can't be opened. You should move it to the Trash. while installing software on macOS, it may be due to security settings restrictions in macOS. To solve this problem, please try the following command in Terminal:
 
 ```bash
-sudo xattr -r -d com.apple.quarantine /YOUR_PATH/NoFWL.app
+xattr -cr /YOUR_PATH/NoFWL.app
 ```
 
 ### Linux
