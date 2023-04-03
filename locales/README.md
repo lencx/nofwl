@@ -11,8 +11,8 @@
 - `pt`: 葡萄牙语 (Portuguese)
 - `ru`: 俄语 (Russian)
 - `tr`: 土耳其语 (Turkish)
-- `zh-CN`: 中文简体 (Chinese Simplified)
-- `zh-HK`: 香港中文 (Chinese Hong Kong)
+- `zh-CN`: 中文简体 (Simplified Chinese)
+- `zh-HK`: 繁体中文 (Traditional Chinese)
 - ...
 
 <!-- - `zh-TW`: 中文繁体 (Chinese Traditional)
