@@ -1,39 +1,39 @@
-lang: German
-hello: Hello NoFWL
+lang: Deutsch
+hello: Hallo NoFWL
 window:
   message:
     close: Do you want to exit the application when you click the [x] button?
 menu:
   app:
-    about: About NoFWL
-    check_update: Check for Updates
+    about: Über NoFWL
+    check_update: Auf Updates überprüfen
   preferences:
-    name: Preferences
+    name: Einstellungen
     control_center: Control Center
     stay_on_top: Stay On Top
     titlebar: Titlebar
     hide_dock_icon: Hide Dock Icon
-    language: Language
+    language: Sprache
     theme:
-      name: Theme
-      light: Light
-      dark: Dark
+      name: Darstellung
+      light: Hell
+      dark: Dunkel
       system: System
     sponsor: Sponsor NoFWL
   edit:
-    name: Edit
+    name: Bearbeiten
   view:
     name: View
-    go_back: Go Back
-    go_forward: Go Forward
-    scroll_top: Scroll to Top of Screen
-    scroll_bottom: Scroll to Bottom of Screen
+    go_back: Zurück
+    go_forward: Vorwärts
+    scroll_top: Zum oberen Bildschirmrand scrollen
+    scroll_bottom: Zum unteren Bildschirmrand scrollen
     zoom_0: Zoom to Actual Size
-    zoom_out: Zoom Out
-    zoom_in: Zoom In
-    reload: Refresh the Screen
+    zoom_out: Verkleinern
+    zoom_in: Vergrößern
+    reload: Neu laden
   help:
-    name: Help
+    name: Hilfe
     app_log: NoFWL Log
     report_bug: Report Bug
     feedback: Feedback
@@ -41,15 +41,15 @@ menu:
 
 gpt:
   button:
-    cancel: Cancel
-    save: Save
+    cancel: Abbrechen
+    save: Speichern
   sidebar:
     menu_title:
-      new: New Chat
-      history: Chat History
+      new: Neuer Chat
+      history: Chatverlauf
       prompts: Prompts
       export_md: Export Markdown
-      settings: Settings
+      settings: Einstellungen
       hide_side: Hide Side
     message:
       chat_history: Chat History
@@ -61,9 +61,9 @@ gpt:
       tip: '(square: 200x200)'
       warn: Invalid file type. Please select a JPEG (JPG) or PNG image!
     api_key:
-      label: API Key
+      label: API-Schlüssel
       warn: API key cannot be empty!
-      title: About API Key
+      title: Über API Key
       link: Get your API key from OpenAI
       context: Your API key is stored locally and will never be sent anywhere else.
     model: Model
