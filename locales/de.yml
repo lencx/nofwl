@@ -70,7 +70,7 @@ gpt:
     context_level:
       label: Kontextebene
       title: Was ist die Kontextebene?
-      context: Das Modell kann keine vergangenen Anfragen abspeichern und muss deshalb durch den Dialog mit allen relevanten Informationen versorgt werden. Die Anforderung basiert auf einer gegebenen Kontextebene, die die neuesten N Informationen in einem Bereich von 0-100 berücksichtigt. 
+      context: Das Modell kann keine vergangenen Anfragen abspeichern und muss deshalb durch den Dialog mit allen relevanten Informationen versorgt werden. Die Antwort basiert auf einer gegebenen Kontextebene, die die neuesten N Informationen in einem Bereich von 0-100 berücksichtigt. 
   main:
     message:
       delete_confirm: Sicher?
