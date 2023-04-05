@@ -12,7 +12,7 @@ menu:
     control_center: Kontrollzentrum
     stay_on_top: Immer oben bleiben
     titlebar: Titelleiste
-    hide_dock_icon: Taskleistenicon verstecken
+    hide_dock_icon: Taskleistensymbol verstecken
     language: Sprache
     theme:
       name: Darstellung
@@ -62,15 +62,15 @@ gpt:
       warn: Ungültiger Dateityp. Bitte wähle JPEG (JPG) oder PNG!
     api_key:
       label: API-Schlüssel
-      warn: Der API-Schlüssel kann nicht leer sein!
+      warn: Der API-Schlüssel darf nicht leer sein!
       title: Über den API-Schlüssel
       link: Erhalte deinen API-Schlüssel von OpenAI
       context: Dein API-Schlüssel wird lokal gespeichert und wird nicht geteilt.
     model: Modell
     context_level:
-      label: Context Level
-      title: What is context level?
-      context: The model has no memory of past requests and must be provided with all relevant information through dialogue. The requests will be based on a set context level that takes the most recent N pieces of information within a range of 0-100.
+      label: Kontextebene
+      title: Was ist die Kontextebene?
+      context: Das Modell kann keine vergangenen Anfragen abspeichern und muss deshalb durch den Dialog mit allen relevanten Informationen versorgt werden. Die Anforderung basiert auf einer gegebenen Kontextebene, die die neuesten N Informationen in einem Bereich von 0-100 berücksichtigt. 
   main:
     message:
       delete_confirm: Sicher?
