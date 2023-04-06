@@ -29,7 +29,7 @@ Currently under active development, please be patient. Its development is inspir
 - Homebrew \
   Or you can install with _[Homebrew](https://brew.sh) ([Cask](https://docs.brew.sh/Cask-Cookbook)):_
   ```sh
-  brew tap lencx/nofwl https://github.com/lencx/nofwl.git
+  brew tap lencx/nofwl
   brew install --cask nofwl --no-quarantine
   ```
   Also, if you keep a _[Brewfile](https://github.com/Homebrew/homebrew-bundle#usage)_, you can add something like this:
