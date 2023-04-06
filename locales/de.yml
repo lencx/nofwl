@@ -6,7 +6,7 @@ window:
 menu:
   app:
     about: Über NoFWL
-    check_update: Auf Updates überprüfen
+    check_update: Auf Updates prüfen
   preferences:
     name: Einstellungen
     control_center: Kontrollzentrum
