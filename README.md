@@ -26,6 +26,19 @@ Currently under active development, please be patient. Its development is inspir
 
 - [NoFWL_0.1.0_macos_aarch64.dmg](https://github.com/lencx/nofwl/releases/download/v0.1.0/NoFWL_0.1.0_macos_aarch64.dmg): Direct download installer
 - [NoFWL_0.1.0_macos_x86_64.dmg](https://github.com/lencx/nofwl/releases/download/v0.1.0/NoFWL_0.1.0_macos_x86_64.dmg): Direct download installer
+- Homebrew \
+  Or you can install with _[Homebrew](https://brew.sh) ([Cask](https://docs.brew.sh/Cask-Cookbook)):_
+  ```sh
+  brew tap lencx/nofwl https://github.com/lencx/nofwl.git
+  brew install --cask nofwl --no-quarantine
+  ```
+  Also, if you keep a _[Brewfile](https://github.com/Homebrew/homebrew-bundle#usage)_, you can add something like this:
+  ```rb
+  repo = "lencx/nofwl"
+  tap repo, "https://github.com/#{repo}.git"
+  cask "nofwl", args: { "no-quarantine": true }
+  ```
+
 
 #### Developer cannot be verified?
 
