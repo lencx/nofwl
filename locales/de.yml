@@ -10,7 +10,7 @@ menu:
   preferences:
     name: Einstellungen
     control_center: Kontrollzentrum
-    stay_on_top: Immer oben bleiben
+    stay_on_top: Im Vordergrund bleiben
     titlebar: Titelleiste
     hide_dock_icon: Taskleistensymbol verstecken
     language: Sprache
@@ -47,7 +47,7 @@ gpt:
     menu_title:
       new: Neuer Chat
       history: Chatverlauf
-      prompts: Eingabeaufforderung
+      prompts: Aufforderungen
       export_md: Markdown exportieren
       settings: Einstellungen
       hide_side: Seite verstecken
@@ -55,7 +55,7 @@ gpt:
       chat_history: Chatverlauf
       chat_delete: Bist du dir sicher, dass du diesen Chat löschen willst? Er kann nicht wiederhergestellt werden!
   modal:
-    settings_title: GPT Einstellungen
+    settings_title: GPT-Einstellungen
     chat_avatar:
       label: Chatavatar
       tip: '(Quadrat: 200x200)'
