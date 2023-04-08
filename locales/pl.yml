@@ -1,0 +1,76 @@
+lang: Polski
+hello: Witaj NoFWL
+window:
+  message:
+    close: Czy chcesz opuścić aplikację po naciśnięciu przycisku [x]?
+  app:
+    about: Informacje o NoFWL
+    check_update: Sprawdzenie aktualizacji
+  preferences:
+    name: Preferencje
+    control_center: Centrum Sterowania
+    stay_on_top: Pozostaw na Wierzchu
+    titlebar: Pasek tytułowy
+    hide_dock_icon: Ukryj Ikonę w Doku
+    language: Język
+    theme:
+      name: Motyw
+      light: Jasny
+      dark: Ciemny
+      system: System
+    sponsor: Sponsoruj NoFWL
+  edit:
+    name: Edytuj
+  view:
+    name: Wyświetl
+    go_back: Wstecz
+    go_forward: Naprzód
+    scroll_top: Przewiń na Górę Ekranu
+    scroll_bottom: Przewiń na Dół Ekranu
+    zoom_0: Powiększ do rzeczywistego rozmiaru
+    zoom_out: Pomniejsz
+    zoom_in: Powiększ
+    reload: Odśwież Ekran
+  help:
+    name: Pomoc
+    app_log: NoFWL Log
+    report_bug: Zgłoś Błąd
+    feedback: Opinie
+    dev_tools: Przełączanie Narzędzi Deweloperskich
+
+gpt:
+  button:
+    cancel: Anuluj
+    save: Zapisz
+  sidebar:
+    menu_title:
+      new: Nowy Czat
+      history: Historia Czatu
+      prompts: Polecenia
+      export_md: Eksportuj Markdown
+      settings: Ustawienia
+      hide_side: Ukryj Stronę
+    message:
+      chat_history: Historia Czatu
+      chat_delete: Czy na pewno chcesz usunąć ten zapis czatu? Po usunięciu nie można go przywrócić!
+  modal:
+    settings_title: Ustawienia GPT
+    chat_avatar:
+      label: Awatar na Czacie
+      tip: '(kwadrat: 200x200)'
+      warn: Nieprawidłowy typ pliku. Proszę wybrać obraz JPEG (JPG) lub PNG!
+    api_key:
+      label: Klucz API
+      warn: Klucz API nie może być pusty!
+      title: Informacje o Kluczu API
+      link: Uzyskaj Klucz API od OpenAI
+      context: Twój klucz API jest przechowywany lokalnie i nigdy nie zostanie wysłany nigdzie indziej. 
+    model: Model
+    context_level:
+      label: Poziom Kontekstu
+      title: Czym jest Poziom Kontekstu? 
+      context: The model has no memory of past requests and must be provided with all relevant information through dialogue. The requests will be based on a set context level that takes the most recent N pieces of information within a range of 0-100. 
+  main:
+    message:
+      delete_confirm: Na pewno?
+
