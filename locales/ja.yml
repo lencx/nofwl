@@ -1,76 +1,76 @@
-lang: Japanese
-hello: Hello NoFWL
+lang: 日本語
+hello: こんにちは NoFWL
 window:
   message:
-    close: Do you want to exit the application when you click the [x] button?
+    close: ウインドウを閉じたとき、アプリケーションを終了しますか？
 menu:
   app:
-    about: About NoFWL
-    check_update: Check for Updates
+    about: NoFWL について
+    check_update: 更新を確認
   preferences:
-    name: Preferences
-    control_center: Control Center
-    stay_on_top: Stay On Top
-    titlebar: Titlebar
-    hide_dock_icon: Hide Dock Icon
-    language: Language
+    name: 設定
+    control_center: コントロールセンター
+    stay_on_top: 常に最前面に表示
+    titlebar: タイトルバー
+    hide_dock_icon: ドックアイコンを非表示
+    language: 言語
     theme:
-      name: Theme
-      light: Light
-      dark: Dark
-      system: System
-    sponsor: Sponsor NoFWL
+      name: 外観モード
+      light: ライト
+      dark: ダーク
+      system: システムと同期
+    sponsor: NoFWL を支援
   edit:
-    name: Edit
+    name: 編集
   view:
-    name: View
-    go_back: Go Back
-    go_forward: Go Forward
-    scroll_top: Scroll to Top of Screen
-    scroll_bottom: Scroll to Bottom of Screen
-    zoom_0: Zoom to Actual Size
-    zoom_out: Zoom Out
-    zoom_in: Zoom In
-    reload: Refresh the Screen
+    name: 表示
+    go_back: 戻る
+    go_forward: 進む
+    scroll_top: 画面の移動
+    scroll_bottom: 画面の一番下へ移動
+    zoom_0: 実際のサイズ
+    zoom_out: 縮小
+    zoom_in: 拡大
+    reload: 画面を再読み込み
   help:
-    name: Help
-    app_log: NoFWL Log
-    report_bug: Report Bug
-    feedback: Feedback
-    dev_tools: Toggle Developer Tools
+    name: ヘルプ
+    app_log: NoFWL ログ
+    report_bug: バグを報告
+    feedback: フィードバック
+    dev_tools: 開発者ツールの切り替え
 
 gpt:
   button:
-    cancel: Cancel
-    save: Save
+    cancel: キャンセル
+    save: 保存
   sidebar:
     menu_title:
-      new: New Chat
-      history: Chat History
-      prompts: Prompts
-      export_md: Export Markdown
-      settings: Settings
-      hide_side: Hide Side
+      new: 新しいチャット
+      history: チャット履歴
+      prompts: プロンプト
+      export_md: Markdown でエクスポート
+      settings: 設定
+      hide_side: サイドバーを隠す
     message:
-      chat_history: Chat History
-      chat_delete: Are you sure you want to delete this chat record? It cannot be restored after deletion!
+      chat_history: チャット履歴
+      chat_delete: このチャット履歴を削除しますか？この操作は取り消せません。
   modal:
-    settings_title: GPT Settings
+    settings_title: GPT 設定
     chat_avatar:
-      label: Chat Avatar
-      tip: '(square: 200x200)'
-      warn: Invalid file type. Please select a JPEG (JPG) or PNG image!
+      label: アバター
+      tip: '(正方形: 200x200)'
+      warn: 無効なファイル形式です。JPEG（JPG）または PNG 形式を選択してください
     api_key:
-      label: API Key
-      warn: API key cannot be empty!
-      title: About API Key
-      link: Get your API key from OpenAI
-      context: Your API key is stored locally and will never be sent anywhere else.
-    model: Model
+      label: API キー
+      warn: API キーは空にできません
+      title: API キーについて
+      link: OpenAI から API キーを取得
+      context: API キーはローカルに保存され、どこにも送信されません。
+    model: モデル
     context_level:
-      label: Context Level
-      title: What is context level?
-      context: The model has no memory of past requests and must be provided with all relevant information through dialogue. The requests will be based on a set context level that takes the most recent N pieces of information within a range of 0-100.
+      label: コンテキストレベル
+      title: コンテキストレベルについて
+      context: モデルは過去のリクエストを記憶しておらず、すべての関連情報を対話を通じて提供する必要があります。リクエストは、0 から 100 の範囲内で設定した最新 N 個のコンテキストレベルに基づいて行われます。
   main:
     message:
-      delete_confirm: Sure?
+      delete_confirm: 削除しますか？
