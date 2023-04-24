@@ -2,7 +2,7 @@ lang: 한국어
 hello: 안녕 NoFWL
 window:
   message:
-    close: [x] 버튼을 눌러 앱을 종료하시겠습니까?
+    close: '[x] 버튼을 눌러 앱을 종료하시겠습니까?'
 menu:
   app:
     about: NoFWL 정보
@@ -20,6 +20,8 @@ menu:
       dark: 어두움
       system: 시스템
     sponsor: NoFWL 스폰서
+  mode:
+    name: 모드
   edit:
     name: 편집
   view:
@@ -43,6 +45,8 @@ gpt:
   button:
     cancel: 취소
     save: 저장
+    regenerate_response: 응답 재생성
+    stop_generating: 생성 중단
   sidebar:
     menu_title:
       new: 새로운 대화
@@ -74,3 +78,12 @@ gpt:
   main:
     message:
       delete_confirm: 정말 삭제할까요?
+
+control_center:
+  menu:
+    settings: 설정
+    prompts:
+      name: 프롬프트
+      user_custom: 사용자 지정
+      sync_prompts: 프롬프트 동기화
+      sync_custom: 사용자 지정 동기화

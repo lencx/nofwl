@@ -20,6 +20,8 @@ menu:
       dark: ダーク
       system: システムと同期
     sponsor: NoFWL を支援
+  mode:
+    name: モード
   edit:
     name: 編集
   view:
@@ -43,6 +45,8 @@ gpt:
   button:
     cancel: キャンセル
     save: 保存
+    regenerate_response: 回復を再生
+    stop_generating: 生成を停止
   sidebar:
     menu_title:
       new: 新しいチャット
@@ -74,3 +78,12 @@ gpt:
   main:
     message:
       delete_confirm: 削除しますか？
+
+control_center:
+  menu:
+    settings: Settings
+    prompts:
+      name: Prompts
+      user_custom: User Custom
+      sync_prompts: Sync Prompts
+      sync_custom: Sync Custom

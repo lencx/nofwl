@@ -20,6 +20,8 @@ menu:
       dark: 暗黑
       system: 系统
     sponsor: 赞助 NoFWL
+  mode:
+    name: 模式
   edit:
     name: 编辑
   view:
@@ -43,6 +45,8 @@ gpt:
   button:
     cancel: 取消
     save: 保存
+    regenerate_response: 重新请求
+    stop_generating: 停止生成
   sidebar:
     menu_title:
       new: 新消息
@@ -74,3 +78,12 @@ gpt:
   main:
     message:
       delete_confirm: 确定？
+
+control_center:
+  menu:
+    settings: 设置
+    prompts:
+      name: 提示
+      user_custom: 用户自定义
+      sync_prompts: 同步 Prompts
+      sync_custom: 同步自定义

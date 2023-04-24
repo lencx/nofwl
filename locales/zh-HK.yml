@@ -20,6 +20,8 @@ menu:
       dark: Dark
       system: System
     sponsor: Sponsor NoFWL
+  mode:
+    name: Mode
   edit:
     name: Edit
   view:
@@ -43,6 +45,8 @@ gpt:
   button:
     cancel: Cancel
     save: Save
+    regenerate_response: Regenerate response
+    stop_generating: Stop generating
   sidebar:
     menu_title:
       new: New Chat
@@ -74,3 +78,12 @@ gpt:
   main:
     message:
       delete_confirm: Sure?
+
+control_center:
+  menu:
+    settings: Settings
+    prompts:
+      name: Prompts
+      user_custom: User Custom
+      sync_prompts: Sync Prompts
+      sync_custom: Sync Custom

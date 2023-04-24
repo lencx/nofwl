@@ -3,6 +3,7 @@ hello: Witaj NoFWL
 window:
   message:
     close: Czy chcesz opuścić aplikację po naciśnięciu przycisku [x]?
+menu:
   app:
     about: Informacje o NoFWL
     check_update: Sprawdzenie aktualizacji
@@ -19,6 +20,8 @@ window:
       dark: Ciemny
       system: Systemowy
     sponsor: Sponsoruj NoFWL
+  mode:
+    name: Mode
   edit:
     name: Edytuj
   view:
@@ -42,6 +45,8 @@ gpt:
   button:
     cancel: Anuluj
     save: Zapisz
+    regenerate_response: Regenerate response
+    stop_generating: Stop generating
   sidebar:
     menu_title:
       new: Nowy Czat
@@ -73,3 +78,12 @@ gpt:
   main:
     message:
       delete_confirm: Na pewno?
+
+control_center:
+  menu:
+    settings: Settings
+    prompts:
+      name: Prompts
+      user_custom: User Custom
+      sync_prompts: Sync Prompts
+      sync_custom: Sync Custom
