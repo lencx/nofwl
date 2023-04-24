@@ -17,7 +17,7 @@ window:
       name: Motyw
       light: Jasny
       dark: Ciemny
-      system: System
+      system: Systemowy
     sponsor: Sponsoruj NoFWL
   edit:
     name: Edytuj
@@ -64,13 +64,12 @@ gpt:
       warn: Klucz API nie może być pusty!
       title: Informacje o Kluczu API
       link: Uzyskaj Klucz API od OpenAI
-      context: Twój klucz API jest przechowywany lokalnie i nigdy nie zostanie wysłany nigdzie indziej. 
+      context: Twój klucz API jest przechowywany lokalnie i nigdy nie zostanie wysłany nigdzie indziej.
     model: Model
     context_level:
       label: Poziom Kontekstu
-      title: Czym jest Poziom Kontekstu? 
-      context: The model has no memory of past requests and must be provided with all relevant information through dialogue. The requests will be based on a set context level that takes the most recent N pieces of information within a range of 0-100. 
+      title: Czym jest Poziom Kontekstu?
+      context: The model has no memory of past requests and must be provided with all relevant information through dialogue. The requests will be based on a set context level that takes the most recent N pieces of information within a range of 0-100.
   main:
     message:
       delete_confirm: Na pewno?
-
