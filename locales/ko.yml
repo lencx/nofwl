@@ -1,76 +1,76 @@
-lang: Korean
-hello: Hello NoFWL
+lang: 한국어
+hello: 안녕 NoFWL
 window:
   message:
-    close: Do you want to exit the application when you click the [x] button?
+    close: [x] 버튼을 눌러 앱을 종료하시겠습니까?
 menu:
   app:
-    about: About NoFWL
-    check_update: Check for Updates
+    about: NoFWL 정보
+    check_update: 업데이트 확인
   preferences:
-    name: Preferences
-    control_center: Control Center
-    stay_on_top: Stay On Top
-    titlebar: Titlebar
-    hide_dock_icon: Hide Dock Icon
-    language: Language
+    name: 설정
+    control_center: 제어 센터
+    stay_on_top: 창을 맨 위에 고정하기
+    titlebar: 제목 표시줄
+    hide_dock_icon: Dock 아이콘 숨기기
+    language: 언어
     theme:
-      name: Theme
-      light: Light
-      dark: Dark
-      system: System
-    sponsor: Sponsor NoFWL
+      name: 테마
+      light: 밝음
+      dark: 어두움
+      system: 시스템
+    sponsor: NoFWL 스폰서
   edit:
-    name: Edit
+    name: 편집
   view:
-    name: View
-    go_back: Go Back
-    go_forward: Go Forward
-    scroll_top: Scroll to Top of Screen
-    scroll_bottom: Scroll to Bottom of Screen
-    zoom_0: Zoom to Actual Size
-    zoom_out: Zoom Out
-    zoom_in: Zoom In
-    reload: Refresh the Screen
+    name: 보기
+    go_back: 취소
+    go_forward: 되돌리기
+    scroll_top: 맨 위로 스크롤 하기
+    scroll_bottom: 맨 아래로 스크롤 하기
+    zoom_0: 화면에 맞추기
+    zoom_out: 축소
+    zoom_in: 확대
+    reload: 새로고침
   help:
-    name: Help
-    app_log: NoFWL Log
-    report_bug: Report Bug
-    feedback: Feedback
-    dev_tools: Toggle Developer Tools
+    name: 도움말
+    app_log: NoFWL 로그
+    report_bug: 버그 제보하기
+    feedback: 피드백 보내기
+    dev_tools: 개발자 도구 활성화
 
 gpt:
   button:
-    cancel: Cancel
-    save: Save
+    cancel: 취소
+    save: 저장
   sidebar:
     menu_title:
-      new: New Chat
-      history: Chat History
-      prompts: Prompts
-      export_md: Export Markdown
-      settings: Settings
-      hide_side: Hide Side
+      new: 새로운 대화
+      history: 대화 기록
+      prompts: 프롬프트
+      export_md: 마크다운 내보내기
+      settings: 설정
+      hide_side: 사이드바 닫기
     message:
-      chat_history: Chat History
-      chat_delete: Are you sure you want to delete this chat record? It cannot be restored after deletion!
+      chat_history: 대화 기록
+      chat_delete: 정말로 이 기록을 삭제하시겠습니까? 삭제 후 되돌릴 수 없습니다.
   modal:
-    settings_title: GPT Settings
+    settings_title: GPT 설정
     chat_avatar:
-      label: Chat Avatar
-      tip: '(square: 200x200)'
-      warn: Invalid file type. Please select a JPEG (JPG) or PNG image!
+      label: 채팅 프로필
+      tip: '(정사각형: 200x200)'
+      warn: 잘못된 파일 형식입니다. JPEG (JPG) 또는 PNG 이미지를 선택하세요!
     api_key:
-      label: API Key
-      warn: API key cannot be empty!
-      title: About API Key
-      link: Get your API key from OpenAI
-      context: Your API key is stored locally and will never be sent anywhere else.
-    model: Model
+      label: API 키
+      warn: API 키를 입력해야 합니다!
+      title: API 키 정보
+      link: OpenAI에서 API 키 가져오기
+      context: API 키는 로컬에 저장되며, 외부로 전송되지 않습니다.
+    model: 모델
     context_level:
-      label: Context Level
-      title: What is context level?
-      context: The model has no memory of past requests and must be provided with all relevant information through dialogue. The requests will be based on a set context level that takes the most recent N pieces of information within a range of 0-100.
+      label: 콘텍스트 레벨
+      title: 콘텍스트 레벨이 무엇인가요?
+      context: 모델은 과거 요청을 기억하지 않기 때문에, 대화를 통해 관련된 정보를 제공해야 합니다. 요청 시 전달할 0-100 사이의 최근 정보의 개수를 콘텍스트 레벨이라고 합니다.
   main:
     message:
-      delete_confirm: Sure?
+      delete_confirm: 정말 삭제할까요?
