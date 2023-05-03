@@ -1,89 +1,89 @@
 lang: Russian
-hello: Hello NoFWL
+hello: Привет NoFWL
 window:
   message:
-    close: Do you want to exit the application when you click the [x] button?
+    close: Хотите ли вы выйти из приложения при нажатии кнопки [x]?
 menu:
   app:
-    about: About NoFWL
-    check_update: Check for Updates
+    about: О NoFWL
+    check_update: Проверить обновления
   preferences:
-    name: Preferences
-    control_center: Control Center
-    stay_on_top: Stay On Top
-    titlebar: Titlebar
-    hide_dock_icon: Hide Dock Icon
-    language: Language
+    name: Настройки
+    control_center: Центр управления
+    stay_on_top: Поверх окон
+    titlebar: Панель заголовка
+    hide_dock_icon: Скрыть значок из Dock
+    language: Язык
     theme:
-      name: Theme
-      light: Light
-      dark: Dark
-      system: System
-    sponsor: Sponsor NoFWL
+      name: Тема
+      light: Светлая
+      dark: Темная
+      system: Системная
+    sponsor: Спонсировать NoFWL
   mode:
-    name: Mode
+    name: Режим
   edit:
-    name: Edit
+    name: Редактировать
   view:
-    name: View
-    go_back: Go Back
-    go_forward: Go Forward
-    scroll_top: Scroll to Top of Screen
-    scroll_bottom: Scroll to Bottom of Screen
-    zoom_0: Zoom to Actual Size
-    zoom_out: Zoom Out
-    zoom_in: Zoom In
-    reload: Refresh the Screen
+    name: Вид
+    go_back: Назад
+    go_forward: Вперед
+    scroll_top: Прокрутка к верхней части экрана
+    scroll_bottom: Прокрутка к нижней части экрана
+    zoom_0: Увеличить до фактического размера
+    zoom_out: Уменьшить масштаб
+    zoom_in: Увеличить масштаб
+    reload: Обновить экран
   help:
-    name: Help
-    app_log: NoFWL Log
-    report_bug: Report Bug
-    feedback: Feedback
-    dev_tools: Toggle Developer Tools
+    name: Помощь
+    app_log: NoFWL журнал
+    report_bug: Сообщить об ошибке
+    feedback: Обратная связь
+    dev_tools: Переключить инструменты разработчика
 
 gpt:
   button:
-    cancel: Cancel
-    save: Save
-    regenerate_response: Regenerate response
-    stop_generating: Stop generating
+    cancel: Отмена
+    save: Сохранить
+    regenerate_response: Перегенерировать ответ
+    stop_generating: Остановить генерацию
   sidebar:
     menu_title:
-      new: New Chat
-      history: Chat History
-      prompts: Prompts
-      export_md: Export Markdown
-      settings: Settings
-      hide_side: Hide Side
+      new: Новый чат
+      history: История чатов
+      prompts: Подсказки
+      export_md: Экспортировать Markdown
+      settings: Настройки
+      hide_side: Скрыть
     message:
-      chat_history: Chat History
-      chat_delete: Are you sure you want to delete this chat record? It cannot be restored after deletion!
+      chat_history: История чатов
+      chat_delete: Вы уверены, что хотите удалить эту запись чата? Она не может быть восстановлена после удаления!
   modal:
-    settings_title: GPT Settings
+    settings_title: GPT настройки
     chat_avatar:
-      label: Chat Avatar
-      tip: '(square: 200x200)'
-      warn: Invalid file type. Please select a JPEG (JPG) or PNG image!
+      label: Аватар
+      tip: '(квадрат: 200x200)'
+      warn: Неверный тип файла. Пожалуйста, выберите изображение в формате JPEG (JPG) или PNG!
     api_key:
-      label: API Key
-      warn: API key cannot be empty!
-      title: About API Key
-      link: Get your API key from OpenAI
-      context: Your API key is stored locally and will never be sent anywhere else.
-    model: Model
+      label: API ключ
+      warn: API ключ не может быть пустым!
+      title: О ключе API
+      link: Получите свой ключ API от OpenAI
+      context: Ваш ключ API хранится локально и никогда не будет передан куда-либо еще.
+    model: Модель
     context_level:
-      label: Context Level
-      title: What is context level?
-      context: The model has no memory of past requests and must be provided with all relevant information through dialogue. The requests will be based on a set context level that takes the most recent N pieces of information within a range of 0-100.
+      label: Уровень контекста
+      title: Что такое контекстный уровень?
+      context: Модель не имеет памяти о прошлых запросах и должна получать всю необходимую информацию посредством диалога. Запросы будут основываться на заданном уровне контекста, который берет самые последние N частей информации в диапазоне 0-100.
   main:
     message:
-      delete_confirm: Sure?
+      delete_confirm: Уверены?
 
 control_center:
   menu:
-    settings: Settings
+    settings: Настройки
     prompts:
-      name: Prompts
-      user_custom: User Custom
-      sync_prompts: Sync Prompts
-      sync_custom: Sync Custom
+      name: Подсказки
+      user_custom: Пользовательские настройки
+      sync_prompts: Синхронизация подсказок
+      sync_custom: Синхронизация пользовательских
