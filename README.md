@@ -4,8 +4,9 @@
   <p align="center">NoFWL Desktop Application (Mac, Windows and Linux)</p>
 </p>
 
-![visitor](https://visitor-badge.glitch.me/badge?page_id=lencx.nofwl)
-[![ChatGPT downloads](https://img.shields.io/github/downloads/lencx/nofwl/total.svg?style=flat-square)](https://github.com/lencx/nofwl/releases)
+<!--![visitor](https://visitor-badge.glitch.me/badge?page_id=lencx.nofwl)-->
+![Visitors](https://api.visitorbadge.io/api/visitors?path=lencx%2Fnofwl&labelColor=%232a2a2a&countColor=%23f2f0ea&style=flat&labelStyle=lower)
+[![ChatGPT downloads](https://img.shields.io/github/downloads/lencx/nofwl/total.svg?style=flat)](https://github.com/lencx/nofwl/releases)
 [![lencx](https://img.shields.io/badge/follow-lencx__-blue?style=flat&logo=Twitter)](https://twitter.com/lencx_)
 
 <a href="https://www.buymeacoffee.com/lencx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
