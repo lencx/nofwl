@@ -1,0 +1,89 @@
+lang: Bosnian
+hello: Zdravo, NoFWL
+window:
+  message:
+    close: Želite li izaći iz aplikacije kada kliknete na [x] dugme?
+menu:
+  app:
+    about: O NoFWL
+    check_update: Provjerite ima li ažuriranja
+  preferences:
+    name: Postavke
+    control_center: Controlni Centar
+    stay_on_top: Ostani na vrhu
+    titlebar: Naslovna traka
+    hide_dock_icon: Sakrij dock ikonu
+    language: Jezik
+    theme:
+      name: Tema
+      light: Svijetlo
+      dark: Mračno
+      system: Sistem
+    sponsor: Sponzorirajte NoFWL
+  mode:
+    name: Način
+  edit:
+    name: Editujte
+  view:
+    name: Vidi
+    go_back: Nazad
+    go_forward: Naprijed
+    scroll_top: Skrolujte do vrha ekrana
+    scroll_bottom: Skrolujte do dna ekrana
+    zoom_0: Zumirajte na stvarnu veličinu
+    zoom_out: Zumirajte vani
+    zoom_in: Zumirajte unutra
+    reload: Osvježite ekran
+  help:
+    name: Pomoć
+    app_log: NoFWL Log
+    report_bug: Reportirajte grešku
+    feedback: Povratne informacije
+    dev_tools: Uključite alate za programere
+
+gpt:
+  button:
+    cancel: Otkaži
+    save: Spasi
+    regenerate_response: Regeneracija odgovora
+    stop_generating: Prestani odgovarati
+  sidebar:
+    menu_title:
+      new: Novi chat
+      history: Chat Historija
+      prompts: Prompti
+      export_md: Izvoz Markdown
+      settings: Postavke
+      hide_side: Sakrij stranu
+    message:
+      chat_history: Chat istorija
+      chat_delete: Jeste li sigurni da želite izbrisati ovaj zapis razgovora? Ne može se vratiti nakon brisanja!
+  modal:
+    settings_title: GPT Postavke
+    chat_avatar:
+      label: Chat Avatar
+      tip: '(Kocka: 200x200)'
+      warn: Nevažeći tip datoteke. Molimo odaberite JPEG (JPG) ili PNG sliku!
+    api_key:
+      label: API ključ
+      warn: API ključ nemože biti prazan!
+      title: O API ključu
+      link: Uzmite vaš API kluč od OpenAI
+      context: Vaš API ključ je sačuvan lokalno i nikada neće biti poslan nigdje drugdje.
+    model: Model
+    context_level:
+      label: Kontekst nivo
+      title: Šta je kontekst nivo?
+      context: Model nema memoriju prošlih zahtjeva i mora mu se dati sve relevantne informacije kroz dijalog. Zahtjevi će se zasnivati na postavljenom nivou konteksta koji uzima najnovijih N informacija u rasponu od 0-100.
+  main:
+    message:
+      delete_confirm: Sigurni?
+
+control_center:
+  menu:
+    settings: Postavke
+    prompts:
+      name: Prompti
+      user_custom: Po narudžbi korisnika
+      sync_prompts: Sinhronizovati prompte
+      sync_custom: Sinhronizovati narudžbe
