@@ -21,7 +21,7 @@ Currently under active development, please be patient. Its development is inspir
 
 ### Windows
 
-[NoFWL_0.1.0_windows_x86_64.msi](https://github.com/lencx/nofwl/releases/download/v0.1.0/NoFWL_0.1.0_windows_x86_64.msi): Direct download installer
+- [NoFWL_0.1.0_windows_x86_64.msi](https://github.com/lencx/nofwl/releases/download/v0.1.0/NoFWL_0.1.0_windows_x86_64.msi): Direct download installer
 - Use [Chocolatey](https://community.chocolatey.org/packages/nofwl):
   ```bash
   # install the latest version
