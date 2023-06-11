@@ -5,18 +5,18 @@ window:
     close: Voulez-vous quitter l'application quand vous cliquez sur le bouton [x] ?
 menu:
   app:
-    about: A propos NoFWL
+    about: A propos de NoFWL
     check_update: Vérifier les mises à jour
   preferences:
     name: Préférences
     control_center: Centre de contrôle
-    stay_on_top: Garder en haut
+    stay_on_top: Garder devant
     titlebar: Barre de titre
-    hide_dock_icon: Cacher l'icone du dock
+    hide_dock_icon: Cacher l'icône du dock
     language: Langue
     theme:
       name: Thème
-      light: Lumineux
+      light: Clair
       dark: Sombre
       system: Système
     sponsor: Sponsor NoFWL
@@ -30,13 +30,13 @@ menu:
     go_forward: Avancer
     scroll_top: Faire défiler en haut de l'écran
     scroll_bottom: Faire défiler en bas de l'écran
-    zoom_0: Zoom à la taille actuelle
+    zoom_0: Zoom à la taille initiale
     zoom_out: Dézoomer
     zoom_in: Zoomer
-    reload: Réfraichir l'écran
+    reload: Rafraichir l'écran
   help:
     name: Aide
-    app_log: NoFWL Log
+    app_log: Journaux NoFWL
     report_bug: Signaler un bug
     feedback: Feedback
     dev_tools: Activer les outils de développement
@@ -45,45 +45,45 @@ gpt:
   button:
     cancel: Retour
     save: Sauvegarder
-    regenerate_response: Régénérer la réponse
+    regenerate_response: Régénérer une réponse
     stop_generating: Arrêter la génération
   sidebar:
     menu_title:
       new: Nouvelle conversation
       history: Historique
-      prompts: Prompts
+      prompts: Invites
       export_md: Exporter en Markdown
       settings: Paramètres
       hide_side: Cacher le panneau
     message:
       chat_history: Historique de chat
-      chat_delete: Êtes-vous sûr de vouloir supprimer cette conversation ? Elle ne peut pas être restauré après la suppression!
+      chat_delete: Êtes-vous sûr de vouloir supprimer cette conversation ? Elle ne pourra pas être restaurée après la suppression !
   modal:
     settings_title: paramètres GPT
     chat_avatar:
-      label: Chat Avatar
+      label: Avatar du Chat 
       tip: '(square: 200x200)'
-      warn: Format de fichier invalide. Merci de selectionner une image JPEG (JPG) ou PNG !
-    api_key:
-      label: API
-      warn: L'API ne peux pas être vide!
-      title: A propos de l'API
-      link: Récupérez votre API auprès d'OpenAI
-      context: Votre clé API est stockée localement et ne sera jamais envoyée ailleurs.
+      warn: Format de fichier invalide. Merci de sélectionner une image JPEG (JPG) ou PNG !
+    api_key: 
+      label: Clé API
+      warn: La clé API ne peut pas être vide !
+      title: A propos de la clé API
+      link: Récupérez votre clé API auprès d'OpenAI
+      context: Votre clé API est stockée localement et ne sera jamais divulguée
     model: Modèle
     context_level:
-      label: Niveau de contexte
-      title: Qu’est-ce que le niveau de contexte ?
-      context: Le modèle n’a aucun souvenir des demandes passées et doit recevoir toutes les informations pertinentes par le dialogue. Les demandes seront basées sur un niveau de contexte défini qui prend les N éléments d’information les plus récents dans une plage de 0 à 100.
-  main:
-    message:
-      delete_confirm: êtes-vous sûrs ?
+      label: Niveau de mémorisation  
+      title: Qu’est-ce que le niveau de mémorisation  ?
+      context: Le modèle n’a aucun souvenir des demandes passées et doit recevoir toutes les informations pertinentes via le dialogue. Les demandes seront basées sur un niveau de mémorisation défini qui prend les N éléments d’information les plus récents dans une plage de 0 à 100.
+  main: 
+    message: 
+      delete_confirm: êtes-vous sûr ?
 
-control_center:
+control_center: Centre de contrôle 
   menu:
-    settings: Settings
-    prompts:
-      name: Prompts
-      user_custom: User Custom
-      sync_prompts: Sync Prompts
-      sync_custom: Sync Custom
+    settings: Paramètres
+    prompts: 
+      name: Invites
+      user_custom: Personnalisation utilisateur
+      sync_prompts: Invites de synchronisation     
+      sync_custom: Synchronisation personnalisée
