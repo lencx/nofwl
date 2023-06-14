@@ -61,7 +61,7 @@ gpt:
   modal:
     settings_title: paramètres GPT
     chat_avatar:
-      label: Chat Avatar
+      label: Avatar de Chat
       tip: '(square: 200x200)'
       warn: Format de fichier invalide. Merci de selectionner une image JPEG (JPG) ou PNG !
     api_key:
@@ -81,9 +81,9 @@ gpt:
 
 control_center:
   menu:
-    settings: Settings
+    settings: Paramètres
     prompts:
-      name: Prompts
-      user_custom: User Custom
-      sync_prompts: Sync Prompts
-      sync_custom: Sync Custom
+      name: Invites
+      user_custom: Personnalisé par l'utilisateur
+      sync_prompts: Synchroniser les invites
+      sync_custom: Synchroniser le personnalisé
