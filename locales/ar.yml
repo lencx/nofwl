@@ -1,89 +1,89 @@
 lang: Arabic
-hello: Hello NoFWL
+hello: مرحبًا NoFWL
 window:
   message:
-    close: Do you want to exit the application when you click the [x] button?
+    close: هل ترغب في الخروج من التطبيق عند النقر على زر [x]؟
 menu:
   app:
-    about: About NoFWL
-    check_update: Check for Updates
+    about: حول NoFWL
+    check_update: التحقق من التحديثات
   preferences:
-    name: Preferences
-    control_center: Control Center
-    stay_on_top: Stay On Top
-    titlebar: Titlebar
-    hide_dock_icon: Hide Dock Icon
-    language: Language
+    name: التفضيلات
+    control_center: مركز التحكم
+    stay_on_top: البقاء في الأعلى
+    titlebar: شريط العنوان
+    hide_dock_icon: إخفاء رمز القائمة
+    language: اللغة
     theme:
-      name: Theme
-      light: Light
-      dark: Dark
-      system: System
-    sponsor: Sponsor NoFWL
+      name: السمة
+      light: فاتح
+      dark: داكن
+      system: النظام
+    sponsor: رعاية NoFWL
   mode:
-    name: Mode
+    name: الوضع
   edit:
-    name: Edit
+    name: تعديل
   view:
-    name: View
-    go_back: Go Back
-    go_forward: Go Forward
-    scroll_top: Scroll to Top of Screen
-    scroll_bottom: Scroll to Bottom of Screen
-    zoom_0: Zoom to Actual Size
-    zoom_out: Zoom Out
-    zoom_in: Zoom In
-    reload: Refresh the Screen
+    name: عرض
+    go_back: العودة للخلف
+    go_forward: الانتقال للأمام
+    scroll_top: التمرير إلى أعلى الشاشة
+    scroll_bottom: التمرير إلى أسفل الشاشة
+    zoom_0: تكبير إلى الحجم الفعلي
+    zoom_out: تصغير
+    zoom_in: تكبير
+    reload: تحديث الشاشة
   help:
-    name: Help
-    app_log: NoFWL Log
-    report_bug: Report Bug
-    feedback: Feedback
-    dev_tools: Toggle Developer Tools
+    name: المساعدة
+    app_log: سجل NoFWL
+    report_bug: الإبلاغ عن خطأ
+    feedback: الملاحظات
+    dev_tools: تبديل أدوات المطور
 
 gpt:
   button:
-    cancel: Cancel
-    save: Save
-    regenerate_response: Regenerate response
-    stop_generating: Stop generating
+    cancel: إلغاء
+    save: حفظ
+    regenerate_response: إعادة توليد الاستجابة
+    stop_generating: إيقاف التوليد
   sidebar:
     menu_title:
-      new: New Chat
-      history: Chat History
-      prompts: Prompts
-      export_md: Export Markdown
-      settings: Settings
-      hide_side: Hide Side
+      new: محادثة جديدة
+      history: سجل المحادثة
+      prompts: الاقتراحات
+      export_md: تصدير إلى Markdown
+      settings: الإعدادات
+      hide_side: إخفاء الجانب
     message:
-      chat_history: Chat History
-      chat_delete: Are you sure you want to delete this chat record? It cannot be restored after deletion!
+      chat_history: سجل المحادثة
+      chat_delete: هل أنت متأكد من رغبتك في حذف سجل المحادثة؟ لا يمكن استعادته بعد الحذف!
   modal:
-    settings_title: GPT Settings
+    settings_title: إعدادات GPT
     chat_avatar:
-      label: Chat Avatar
-      tip: '(square: 200x200)'
-      warn: Invalid file type. Please select a JPEG (JPG) or PNG image!
+      label: صورة المحادثة
+      tip: "(مربع: 200 × 200)"
+      warn: نوع الملف غير صالح. يرجى اختيار صورة JPEG (JPG) أو PNG!
     api_key:
-      label: API Key
-      warn: API key cannot be empty!
-      title: About API Key
-      link: Get your API key from OpenAI
-      context: Your API key is stored locally and will never be sent anywhere else.
-    model: Model
+      label: مفتاح API
+      warn: لا يمكن أن يكون مفتاح الواجهة البرمجية فارغًا!
+      title: حول مفتاح الواجهة البرمجية
+      link: احصل على مفتاح الواجهة البرمجية الخاص بك من OpenAI
+      context: يتم تخزين مفتاح الواجهة البرمجية المحليًا ولن يتم إرساله إلى أي مكان آخر.
+    model: النموذج
     context_level:
-      label: Context Level
-      title: What is context level?
-      context: The model has no memory of past requests and must be provided with all relevant information through dialogue. The requests will be based on a set context level that takes the most recent N pieces of information within a range of 0-100.
+      label: مستوى السياق
+      title: ما هو مستوى السياق؟
+      context: النموذج ليس لديه ذاكرة للطلبات السابقة ويجب تزويده بجميع المعلومات ذات الصلة من خلال الحوار. سيتم استناد الطلبات إلى مستوى السياق المحدد الذي يأخذ أحدث N قطعة من المعلومات ضمن نطاق 0-100.
   main:
     message:
-      delete_confirm: Sure?
+      delete_confirm: هل أنت متأكد؟
 
 control_center:
   menu:
-    settings: Settings
+    settings: الإعدادات
     prompts:
-      name: Prompts
-      user_custom: User Custom
-      sync_prompts: Sync Prompts
-      sync_custom: Sync Custom
+      name: الاقتراحات
+      user_custom: مخصصة من قبل المستخدم
+      sync_prompts: مزامنة الاقتراحات
+      sync_custom: مزامنة المخصصة
