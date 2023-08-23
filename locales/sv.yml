@@ -1,0 +1,89 @@
+lang: Swedish
+hello: Hej NoFWL
+window:
+  message:
+    close: Vill du avsluta applikationen när du klickar på [x] knappen?
+menu:
+  app:
+    about: Om NoFWL
+    check_update: Sök efter uppdateringar
+  preferences:
+    name: Inställningar
+    control_center: Kontrollcenter
+    stay_on_top: Alltid överst
+    titlebar: Titelrad
+    hide_dock_icon: Dölj Dockikon
+    language: Språk
+    theme:
+      name: Tema
+      light: Ljust
+      dark: Mörkt
+      system: System
+    sponsor: Sponsra NoFWL
+  mode:
+    name: Läge
+  edit:
+    name: Redigera
+  view:
+    name: Visa
+    go_back: Gå tillbaka
+    go_forward: Gå framåt
+    scroll_top: Scrolla till toppen
+    scroll_bottom: Scrolla till botten
+    zoom_0: Återställ Zoom
+    zoom_out: Zooma Ut
+    zoom_in: Zooma In
+    reload: Ladda om
+  help:
+    name: Hjälp
+    app_log: NoFWL Logg
+    report_bug: Felrapportering
+    feedback: Feedback
+    dev_tools: Visa Utvecklarverktyg
+
+gpt:
+  button:
+    cancel: Avbryt
+    save: Spara
+    regenerate_response: Skapa nytt svar
+    stop_generating: Avbryt svar
+  sidebar:
+    menu_title:
+      new: Ny Chatt
+      history: Chatthistorik
+      prompts: Dialoger
+      export_md: Exportera Markdown
+      settings: Inställningar
+      hide_side: Dölj sidomeny
+    message:
+      chat_history: Chatthistorik
+      chat_delete: Är du säker på att du vill ta bort konversationen? Det går inte att ångra!
+  modal:
+    settings_title: GPT Inställningar
+    chat_avatar:
+      label: Chatt Avatar
+      tip: '(kvadrat: 200x200)'
+      warn: Otillåtet filformat. Välj antingen JPEG (JPG) eller PNG!
+    api_key:
+      label: API nyckel
+      warn: API nyckel får inte vara tom!
+      title: Om API nyckel
+      link: Hämta din API nyckel från OpenAI
+      context: Din API nyckel är sparad lokalt och kommer aldrig bli delad med någon annan.
+    model: Modell
+    context_level:
+      label: Kontextnivå (Context Level)
+      title: Vad är kontextnivå?
+      context: Modellen har inget minne av tidigare dialoger, och måste därför förses med all relevant information i den aktuella dialogen. Anrop kommer baseras på en kontextnivå som använde de senaste N fragmenten av information inom ett spann från 0 till 100.
+  main:
+    message:
+      delete_confirm: Är du säker?
+
+control_center:
+  menu:
+    settings: Inställningar
+    prompts:
+      name: Dialoger
+      user_custom: Användarspecifika
+      sync_prompts: Synca Dialoger
+      sync_custom: Användarspecifika
