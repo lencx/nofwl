@@ -1,0 +1,89 @@
+lang: Bengali
+hello: হ্যালো NoFWL
+window:
+  message:
+    close: আপনি যখন [x] বোতামে ক্লিক করবেন তখন কি আপনি অ্যাপ্লিকেশন থেকে প্রস্থান করতে চান?
+menu:
+  app:
+    about: NoFWL সম্পর্কে
+    check_update: হালনাগাদ অনুসন্ধান
+  preferences:
+    name: Preferencesপছন্দসমূহ
+    control_center: নিয়ন্ত্রণ কেন্দ্র
+    stay_on_top: উপরে অবস্থান করুক
+    titlebar: শিরোনাম
+    hide_dock_icon: ডক আইকন লুকান
+    language: ভাষা
+    theme:
+      name: থিম
+      light: উজ্জ্বল
+      dark: আঁধার
+      system: সিস্টেম
+    sponsor: স্পন্সর NoFWL
+  mode:
+    name: মোড
+  edit:
+    name: সম্পাদনা
+  view:
+    name: ভিউ
+    go_back: ফিরে যান
+    go_forward: সামনে আগান
+    scroll_top: স্ক্রিনের শীর্ষে ফিরে যান
+    scroll_bottom: স্ক্রিনের নীচে ফিরে যান
+    zoom_0: মূল আকারে জুম করুন
+    zoom_out: ছোট করো
+    zoom_in: প্রসারিত করো
+    reload: স্ক্রীন রিফ্রেশ করুন
+  help:
+    name: সাহায্য
+    app_log: NoFWL লগ
+    report_bug: বাগ রিপোর্ট
+    feedback: প্রতিক্রিয়া
+    dev_tools: ডেভেলপার টুল টগল করুন
+
+gpt:
+  button:
+    cancel: বাতিল
+    save: সংরক্ষণ
+    regenerate_response: প্রতিক্রিয়া পুনরুৎপাদন
+    stop_generating: উৎপন্ন করা বন্ধ করুন
+  sidebar:
+    menu_title:
+      new: নতুন চ্যাট
+      history: চ্যাট ইতিহাস
+      prompts: প্রম্পট
+      export_md: এক্সপোর্ট মার্কডাউন
+      settings: সেটিংস
+      hide_side: সাইড লুকান
+    message:
+      chat_history: চ্যাট ইতিহাস
+      chat_delete: আপনি কি এই চ্যাট রেকর্ড মুছে ফেলার বিষয়ে নিশ্চিত? এটি মুছে ফেলার পরে আর এটি পুনরুদ্ধার করা যাবে না!
+  modal:
+    settings_title: GPT সেটিংস
+    chat_avatar:
+      label: চ্যাট অবতার
+      tip: '(চতুষ্ক: ২০০x২০০)'
+      warn: অকার্যকর ফাইল টাইপ। একটি JPEG (JPG) বা PNG ছবি নির্বাচন করুন!
+    api_key:
+      label: API কী
+      warn: API কী খালি থাকতে পারবে না!
+      title: About API Key
+      link: OpenAI থেকে আপনার API কী সংগ্রহ করুন
+      context: আপনার API কী স্থানীয়ভাবে সংরক্ষণ করা হয় এবং অন্য কোথাও প্রেরণ করা হবে না।
+    model: মডেল
+    context_level:
+      label: পূর্বাপর সম্বন্ধ স্তর
+      title: পূর্বাপর সম্বন্ধ স্তর কি?
+      context: মডেলটিতে অতীতের অনুরোধগুলির কোনও স্মৃতি নেই এবং সংলাপের মাধ্যমে সমস্ত প্রাসঙ্গিক তথ্য সরবরাহ করা আবশ্যক। অনুরোধগুলি একটি স্থির পূর্বাপর সম্বন্ধ স্তরের উপর ভিত্তি করে হবে যা ০-১০০ এর পরিসীমার মধ্যে তথ্যের সাম্প্রতিকতম N টুকরা তথ্য নেয়।
+  main:
+    message:
+      delete_confirm: নিশ্চিত?
+
+control_center:
+  menu:
+    settings: সেটিংস
+    prompts:
+      name: প্রম্পট
+      user_custom: ইউজার কাস্টম
+      sync_prompts: সিঙ্ক প্রম্পট
+      sync_custom: সিঙ্ক কাস্টম
