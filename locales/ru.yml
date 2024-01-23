@@ -10,7 +10,7 @@ menu:
   preferences:
     name: Персональные настройки
     control_center: Центр управления
-    stay_on_top: Оставаться наверху # I tried to understand what this function does for a more accurate translation, but I did not understand. As I understand it, so far it's just a stub.
+    stay_on_top: Поверх всех окон
     titlebar: Заголовок
     hide_dock_icon: Скрыть значок
     language: Язык
