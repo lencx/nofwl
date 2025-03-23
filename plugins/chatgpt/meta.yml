@@ -6,3 +6,9 @@ link: https://github.com/lencx/nofwl/tree/main/plugins/chatgpt
 url:
   - https://ai.com
   - https://chat.openai.com
+dependencies: []
+compatibility: "1.0.0"
+update_url: "https://github.com/lencx/nofwl/tree/main/plugins/chatgpt"
+changelog: |
+  - Initial release
+last_updated: "2023-04-01"

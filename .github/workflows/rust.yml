@@ -1,0 +1,76 @@
+name: Rust CI/CD Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        profile: minimal
+        override: true
+
+    - name: Cache Cargo
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.cargo/bin
+          target
+          ~/.cargo/registry
+          ~/.cargo/git
+        key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-cargo-
+
+    - name: Build
+      run: cargo build --verbose
+      continue-on-error: false
+
+    - name: Run tests
+      run: cargo test --verbose -- --nocapture
+      continue-on-error: false
+
+    - name: Run linter
+      run: cargo clippy -- -D warnings
+      continue-on-error: false
+
+    - name: Format check
+      run: cargo fmt -- --check
+      continue-on-error: false
+
+    - name: Publish test results
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: target/debug/deps/*.d
+
+  # Rollback step in case of failure
+  rollback:
+    runs-on: ubuntu-latest
+    if: failure()
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Rollback to previous commit
+      run: |
+        git checkout main
+        git reset --hard HEAD~1
+        git push -f origin main
+      continue-on-error: false

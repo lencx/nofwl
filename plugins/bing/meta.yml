@@ -5,3 +5,9 @@ description: NoFWL Bing
 link: https://github.com/lencx/nofwl/tree/main/plugins/bing
 url:
   - https://edgeservices.bing.com
+dependencies: []
+compatibility: "1.0.0"
+update_url: "https://github.com/lencx/nofwl/tree/main/plugins/bing"
+changelog: |
+  - Initial release
+last_updated: "2023-04-01"

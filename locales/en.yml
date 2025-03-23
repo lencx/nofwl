@@ -87,3 +87,23 @@ control_center:
       user_custom: User Custom
       sync_prompts: Sync Prompts
       sync_custom: Sync Custom
+
+plugin_management:
+  categories:
+    productivity: Productivity
+    entertainment: Entertainment
+    utilities: Utilities
+  tags:
+    search: Search
+    filter: Filter
+    sort: Sort
+  dependencies:
+    label: Dependencies
+    none: None
+  compatibility:
+    label: Compatibility
+    compatible: Compatible
+    incompatible: Incompatible
+  warnings:
+    incompatible_plugin: This plugin is not compatible with the current version of the ChatGPT desktop application.
+    unresolved_dependencies: This plugin has unresolved dependencies.

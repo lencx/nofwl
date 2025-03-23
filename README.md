@@ -68,6 +68,7 @@ xattr -cr /YOUR_PATH/NoFWL.app
 - Themes (light, dark, system)
 - Internationalization (English, Chinese)
 - Safe and reliable, all data is stored locally
+- Plugin management
 
 ## I18N
 
@@ -85,6 +86,55 @@ If you would like to contribute translations for other languages to the applicat
   - [ ] Sync
   - [ ] Custom
 - [ ] Plugins
+
+## Plugin Management
+
+To manage plugins in NoFWL, follow these steps:
+
+1. Open the `nofwl.yml` file located in the root directory of the project.
+2. Add or update the plugin information under the `plugins` section.
+3. Save the changes and restart the application.
+
+Example `nofwl.yml` file:
+
+```yaml
+name: nofwl
+author: lencx <cxin1314@gmail.com>
+description: NoFWL Plugins
+link: https://github.com/lencx/nofwl
+plugins:
+  - name: chatgpt
+    version: 0.1.0
+  - name: bing
+    version: 0.1.0
+  - name: valtown
+    version: 0.1.0
+    author: yourname
+    description: NoFWL Val.town Plugin
+    link: https://github.com/yourusername/nofwl/tree/main/plugins/valtown
+    url:
+      - https://api.val.town
+
+plugin_management:
+  categories:
+    productivity: Productivity
+    entertainment: Entertainment
+    utilities: Utilities
+  tags:
+    search: Search
+    filter: Filter
+    sort: Sort
+  dependencies:
+    label: Dependencies
+    none: None
+  compatibility:
+    label: Compatibility
+    compatible: Compatible
+    incompatible: Incompatible
+  warnings:
+    incompatible_plugin: This plugin is not compatible with the current version of the ChatGPT desktop application.
+    unresolved_dependencies: This plugin has unresolved dependencies.
+```
 
 ## Preview
 
